@@ -6,6 +6,12 @@ This script can help you to submit URLs in bulk to the Google Indexing API. The 
 
 I use pipenv to manage my virtual environments. If you don't have it, you can find info on how to install it [here](https://pipenv.pypa.io/en/latest/installation/).
 
+To install the dependencies, run the following command:
+
+```
+pipenv install
+```
+
 If you are using a different virtual environment manager, you can use the `requirements.txt` file to install the dependencies:
 
 ```
@@ -13,6 +19,8 @@ pip install -r requirements.txt
 ```
 
 **Important**: Ensure you have the Google Service Account credentials and save them as `credentials.json` in the project directory.
+
+Follow the instructions [in this thread](https://x.com/iannuttall/status/1706606218129928655?s=20) to make sure you have the correct permissions for the service account.
 
 ## Usage
 
