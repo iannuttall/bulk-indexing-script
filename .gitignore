@@ -1,0 +1,4 @@
+Pipfile.lock
+*.db
+*.json
+urls.txt
